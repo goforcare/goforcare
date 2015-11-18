@@ -1,0 +1,100 @@
+---
+layout: default
+---
+
+<!--Content-->
+<div class="container first-container centered">
+
+ <div class="banner-text">
+  <img class="ui image banner" src="/images/logo_notext.svg">
+  <h1 class="logo-text"><span class="light-blue">Go</span><span class="blue">For</span><span class="light-blue">Care</span></h1>
+  <h2 class="blue">Health Beyond Borders</h2>
+  <a href="#getstartedmark"><button class='ui animated fade massive button'>
+<div class="visible content"><i class="fa fa-stethoscope"></i>Get Started</div>
+  <div class="hidden content">
+    <i id="down" class="fa fa-chevron-circle-down"></i>
+  </div>
+  </button>
+  </a>
+</div>
+<div id="vidcontainer">
+  <script type="text/javascript">
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    document.writeln('<div id="video-replacement"></div>');
+
+    }
+        
+    else {
+        document.write('<video id="video" class="video" poster="/images/snap.png" muted loop autoplay><source src="/images/san-andres.mp4" type="video/mp4"><source src="/images/san-andres.ogv" type="video/ogg"><source src="/images/san-andres.webm" type="video/webm"></video>');
+ 
+}
+</script>
+
+</div>
+
+
+ 
+
+</div>
+<div class="pagewrap">
+<div class="container">
+<!-- ===========================ABOUT US================================ -->
+  <div class="aboutwrap" id="getstartedmark">
+  <h3 class="ui horizontal divider"><i class="fa fa-user-md"></i>About Us</h3>
+  <p>At Go For Care we make health services available and affordable for patients from all over the world. We provide them the opportunity to receive a variety of treatments they couldn't find or afford at their home countries, while they enjoy of the magnificent beauty of Colombia and our people.
+We will be next to you, from beginning to end in this journey you are going to take.</p>
+</div>
+
+<!-- =========================STEP BY STEP============================ -->
+<div class="stepwrap">
+<h4 class="ui horizontal divider header">Never done this before? <span class="br-tablet">It's as simple as it can get</span></h4>
+  <div class="ui six steps">
+  <div class="step">
+    <i class="comment icon"></i>
+    <div class="content">
+      <div class="title">Contact</div>
+      <div class="description">You only have to give us a call or write us an email. We will be more than happy to guide you on this path and solve all your doubts.</div>
+    </div>
+  </div>
+   <div class="step">
+    <i class="fax icon"></i>
+    <div class="content">
+      <div class="title">Proposal</div>
+      <div class="description">Based on your requests and medical condition we will provide you with the best specialists, thus you can choose the one you feel more comfortable with. </div>
+    </div>
+  </div>
+  <div class="step">
+    <i class="plane icon"></i>
+    <div class="content">
+      <div class="title">Trip arrangement</div>
+      <div class="description">The procedure will be scheduled, as flight tickets and accommodation will be arranged by us.</div>
+    </div>
+  </div>
+  <div class="step">
+    <i class="treatment icon"></i>
+    <div class="content">
+      <div class="title">Procedure</div>
+      <div class="description">Once you undergo the medical procedure, you will be provided with a recovery support team. We will be with you all through this process.</div>
+    </div>
+  </div>
+  <div class="step">
+    <i class="palm-tree icon"></i>
+    <div class="content">
+      <div class="title">Tourism</div>
+      <div class="description">You can enjoy of the delightful sights and places Colombia has to offer. We will take care of all arrangements based on your taste and desires.</div>
+    </div>
+  </div>
+   <div class="step">
+    <i class="home icon"></i>
+    <div class="content">
+      <div class="title">Return home</div>
+      <div class="description">Once you are ready you will be headed home. But don’t worry, we will keep in touch with you to follow up your recovery process. </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+{% include planselector.html %}

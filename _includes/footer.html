@@ -1,0 +1,64 @@
+<footer class="ui inverted vertical footer segment site-footer">
+    <div class="ui center aligned container">
+      <a href="http://goforcare.co/index.html"><img src="/images/logo_goforcare.svg" class="ui centered tiny image"></a>
+      <div class="ui horizontal inverted small divided link list">
+        <a class="item" href="#"><i class="mail icon mini" style"margin-top: -3px;"></i>Contact Us</a>
+        <a class="item" href="#"><i class="phone icon mini"></i> +18882266205</a>
+        <a class="item" href="{{ site.email }}">{{ site.email }}</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+    <!-- Core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+     <script type="text/javascript">
+  //Mobile Menu
+jQuery(document).ready(function($){
+  var navigation = $('#navigation'),
+  main = navigation.find('ul.menu');
+  $('.nav-trigger').on('click', function(){
+    $(this).toggleClass('open');
+    main.off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend').toggleClass('is-visible');
+  });
+
+
+});
+</script>
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+    var defHeight = $('.def-height').css("height");
+
+    $( window ).on("resize", function() {
+       defHeight = $('.def-height').css("height");
+    });
+    if ($(window).width()  > 899) {
+            $('.same-height').css('height', defHeight);
+        }
+    });
+</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+  
+  $('#path').on("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",
+ function(ekg){
+    // do something here
+    $(this).attr('class', 'no-stroke');
+  setTimeout( function(){ 
+    // Do something after 1 second 
+    $('#path').attr("class", "ekg-animate");
+  }  , 2000 );
+  
+ });
+  ekg();
+});
+</script>

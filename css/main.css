@@ -48,4 +48,4 @@ padding-top:0.4rem;
 }
 }
 #about-bg{background-image:url(/images/about-coffee2.jpg);position:absolute;top:-4rem;left:0;min-width:100%;min-height:100%;width:auto;height:auto;z-index:-100;overflow:hidden;background-size:cover;}
-                                                h5.aboutus{margin-top:-2rem;padding-bottom:5rem;}
+                                                h5.aboutus{margin-top:-2rem;padding-bottom:5rem;}h4.aboutus{color:#f2fafb;}

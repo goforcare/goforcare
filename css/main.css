@@ -47,5 +47,5 @@ ul.menu li + li {
 padding-top:0.4rem;
 }
 }
-#about-bg{background-image:url(/images/about-coffee2.jpg);position:fixed;top:0;left:0;min-width:100%;min-height:80%;width:auto;height:auto;z-index:-100;overflow:hidden;}
+#about-bg{background-image:url(/images/about-coffee2.jpg);position:fixed;top:0;left:0;min-width:100%;max-width:100%;width:auto;height:auto;z-index:-100;overflow:hidden;}
                                                 h5.aboutus{margin-top:-2rem;padding-bottom:3.5rem;}

@@ -128,3 +128,4 @@ ol.ui.list li:last-child,
 li {list-style-type: none;}
 ul{padding-left:0!important};
 .footer-header{color:hsla(0,0%,100%,.9)!important;}
+.footer-list{text-align:center;}

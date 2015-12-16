@@ -54,7 +54,8 @@ h5.aboutus{margin-top:-2rem;padding-bottom:6rem; text-shadow: 0 0 9px #5146be!im
 .footer-logo {
 	display: block;
 	margin: auto;
-	width: 8rem!important;
+	width: auto;
+	height: 10rem!important;
 }
 
  ul.ui.list,

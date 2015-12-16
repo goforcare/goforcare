@@ -123,4 +123,4 @@ ol.ui.list li:last-child,
   height: auto;
   font-size: 0.92857143rem;
 }
-.footer-header{color:hsla(0,0%,100%,.9);}
+.footer-header{color:hsla(0,0%,100%,.9)!important;}

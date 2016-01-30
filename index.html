@@ -8,30 +8,21 @@ published: true
 
 
 <!--Content-->
-<div class="container first-container centered">
+<div class="first-container centered">
 
  <div class="banner-text">
-  <img class="ui image banner" src="/images/logo_notext.svg">
+  <img class="banner" src="/images/logo_notext.svg">
   <h1 class="logo-text"><span class="light-blue">Go</span><span class="blue">For</span><span class="light-blue">Care</span></h1>
   <h2 class="blue">Health Beyond Borders</h2>
-  <a href="#get_started"><button class='ui animated fade massive button'>
-<div class="visible content"><i class="fa fa-stethoscope"></i>Get Started</div>
-  <div class="hidden content">
-    <i id="down" class="fa fa-chevron-circle-down"></i>
-  </div>
+  <a href="#get_started"><button class="btn-floating btn-large get-started waves-effect waves-light red"><i class="fa fa-chevron-down"></i>
   </button>
   </a>
 </div>
-<div id="vidcontainer">
-  <script type="text/javascript">
-  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    document.writeln('<div id="video-replacement"></div>');}
-        
-    else {
-        document.write('<video id="video" class="video" poster="/images/snap.png" muted loop autoplay><source src="/images/san-andres.mp4" type="video/mp4"><source src="/images/san-andres.ogv" type="video/ogg"><source src="/images/san-andres.webm" type="video/webm"></video>');
- 
-}
-</script>
+<div class="vidcontainer"></div>
+<!-- <video autoplay="" loop="" poster="assets/images/video/video-home.jpg" id="bgvid">
+      <source src="assets/images/video/video-home.webm" type="video/webm">
+      <source src="assets/images/video/video-home.mp4" type="video/mp4">
+    </video> -->
 
 </div>
 
@@ -39,67 +30,178 @@ published: true
  
 
 </div>
-<div class="pagewrap">
-<div class="container">
+<div class="homewrap">
+<div class="container" id="get_started">
 <!-- ===========================ABOUT US================================ -->
-  <div class="aboutwrap" id="get_started">
-  <h3 class="ui horizontal divider"><i class="fa fa-user-md"></i>About Us</h3>
-  <p>Go For Care is an enterprise devoted to offer complex counselling in the purchasing of medical and tourism services in Colombia to people living or residing abroad. We facilitate the decision-making, customizing each case according to the needs of our customers, by creating a reliable and comfortable environment. 
+  
+<h2  class="wow fadeIn"><img class="hospital-i" src="/images/hospital.svg">About us</h2>
+<div class="divider"></div>
+  <p class="center-align about-p wow fadeIn">Go For Care is an enterprise devoted to offer complex counselling in the purchasing of medical and tourism services in Colombia to people living or residing abroad. We facilitate the decision-making, customizing each case according to the needs of our customers, by creating a reliable and comfortable environment. 
 
 In Go For Care we make health services available and affordable for patients from all over the world. We provide you the opportunity to receive a variety of treatments you couldn't find or afford at your home countries, while you enjoy the magnificent beauty of Colombia and our people.</p>
 </div>
+{% include ekg_svg.html %}
+<div class="pagewrap" style="margin-top:0">
+<div class="row about wow fadeIn">
+          <div class="col s12 m3 center-align">
+            <div class="image-container">
+              <img class="about-icon" src="images/medcare.svg">
+            </div>
+          </div>
+          <div class="col s12 m9 l9 about-cont">
+            <h4 class="about-h">Medical care</h4>
+            <p class="about-p2">We specialize in healthcare. Our alliances with specialists, clinics, hotels and tourism agencies resemble the highest level of professionalism in Colombia. We are customizing each case according to the needs of our customers, by creating a reliable and comfortable environment. Making your recovery smooth and enjoyable is the foundation of our company.</p>
+          </div>
+</div>
+<div class="row about wow fadeIn">
+          <div class="col s12 m3 center-align">
+            <div class="image-container">
+              <img class="about-icon" src="images/doctor.svg">
+            </div>
+          </div>
+          <div class="col s12 m9 l9 about-cont">
+            <h4 class="about-h">Treatment & Support</h4>
+            <p class="about-p2">As a medical tourism facilitator, we take care of each and every one of our patients from the first moment they pick us, accompanying them during the specialist selection, their arrival to our country, during the medical treatment, and their recovery. While we provide touristic and cultural plans on your trip too, our main priority still remains on giving you the best quality of medical care possible.</p>
+          </div>
+</div>
+<div class="row about wow fadeIn">
+          <div class="col s12 m3 center-align">
+            <div class="image-container">
+              <img class="about-icon" src="images/ambulance.svg">
+            </div>
+          </div>
+          <div class="col s12 m9 l9 about-cont">
+            <h4 class="about-h">Other services and translation</h4>
+            <p class="about-p2">Additionally, we support them with tourism plans arrangements and accompanying them during their return home, checking up with them via telephone after their arrival to their home countries. Besides, we provide an interpreter in case it is necessary, local transportation and medical assistance 24/7. We want to make sure that through the charism, cheerfulness and warmth Colombian people are famous for, combined with the breathtaking beauty of our landscapes, our customers receive not only an exquisite medical care, but also the best vacations of their lives.</p>
+          </div>
+</div>
 
+<div class="divider"></div>
+</div>
+<div class="divider"></div>
 <!-- =========================STEP BY STEP============================ -->
-<div class="stepwrap">
-<h4 class="ui horizontal divider header">Never done this before? <span class="br-tablet">It's as simple as it can get</span></h4>
-  <div class="ui six steps">
-  <div class="step">
-    <i class="comment icon"></i>
-    <div class="content">
-      <div class="title">Contact</div>
-      <div class="description">You only have to give us a call or write us an email. We will be more than happy to guide you on this path and solve all your doubts.</div>
-    </div>
-  </div>
-   <div class="step">
-    <i class="fax icon"></i>
-    <div class="content">
-      <div class="title">Quote</div>
-      <div class="description">Based on your requests and medical condition we will provide you with the best specialists, so that you can choose the one you feel more comfortable with.</div>
-    </div>
-  </div>
-  <div class="step">
-    <i class="plane icon"></i>
-    <div class="content">
-      <div class="title">Planning and scheduling</div>
-      <div class="description">All your trip will be arranged by us. Including flight tickets, accommodation, the procedure itself and all the additional services you can to get.</div>
-    </div>
-  </div>
-  <div class="step">
-    <i class="treatment icon"></i>
-    <div class="content">
-      <div class="title">Admission and treatment</div>
-      <div class="description">Based on the specialist requests you will be admitted at the medical institution for your treatment. Once you undergo the medical procedure, you will be provided with a recovery support team. GFC will be with all through this process.</div>
-    </div>
-  </div>
-  <div class="step">
-    <i class="palm-tree icon"></i>
-    <div class="content">
-      <div class="title">Tourism Activities</div>
-      <div class="description">You can enjoy the delightful sights and places Colombia has to offer. We will take care of all the arrangements based on your taste and desires.</div>
-    </div>
-  </div>
-   <div class="step">
-    <i class="home icon"></i>
-    <div class="content">
-      <div class="title">Return home</div>
-      <div class="description">Once you are ready you will head home. But don’t worry, we will keep in touch with you to follow up your recovery process.</div>
-    </div>
-  </div>
+
+  <!-- STEPS -->
+  <section id="Steps" class="steps-section wow fadeIn">
+
+    <h2>
+      The timeline of your trip
+    </h2>
+
+    <div class="steps-timeline">
+
+      <div class="steps-one">
+        <div class="steps-img z-depth-1">
+        {% include mail.svg %}
+        </div>
+        <h3 class="steps-name">
+          Contact
+        </h3>
+        <p class="steps-description first-step-description">
+          You only have to give us a call or write us an email. We will be more than happy to guide you on this path and solve all your doubts.
+        </p>
+      </div>
+
+      <div class="steps-two">
+         <div class="steps-img z-depth-1">
+         {% include file.svg %}
+        </div>
+        <h3 class="steps-name">
+          Proposal
+        </h3>
+        <p class="steps-description">
+           Based on your requests and medical condition we will provide you with the best specialists, so that you can choose the one you feel more comfortable with.
+        </p>
+      </div>
+
+      <div class="steps-three">
+         <div class="steps-img z-depth-1">
+         {% include calendar.svg %}
+        </div>
+        <h3 class="steps-name">
+          Scheduling
+        </h3>
+        <p class="steps-description">
+           All your trip will be arranged by us. Including flight tickets, accommodation, the procedure itself and all the additional services you can to get.
+        </p>
+      </div>
+      
+      <div class="steps-four">
+         <div class="steps-img z-depth-1">
+         {% include stethoscope.svg %}
+        </div>
+        <h3 class="steps-name">
+          Treatment
+        </h3>
+        <p class="steps-description">
+          Based on the specialist requests you will be admitted at the medical institution for your treatment. Once you undergo the medical procedure, you will be provided with a recovery support team. GFC will be with all through this process.
+        </p>
+      </div>
+      
+      <div class="steps-five">
+         <div class="steps-img  z-depth-1">
+         {% include palm.svg %}
+        </div>
+        <h3 class="steps-name">
+          Vacation
+        </h3>
+        <p class="steps-description">
+           You can enjoy the delightful sights and places Colombia has to offer. We will take care of all the arrangements based on your taste and desires.
+        </p>
+      </div>
+      
+      <div class="steps-six">
+         <div class="steps-img z-depth-1">
+         {% include home.svg %}
+        </div>
+        <h3 class="steps-name">
+          Return home
+        </h3>
+        <p class="steps-description">
+           Once you are ready you will head home. Don’t worry, we will keep in touch with you to follow up your recovery process.
+        </p>
+      </div>
+      
+
+    </div><!-- /.steps-timeline -->
+
+  </section>
+
 
 </div>
 </div>
-  <h3 class="ui horizontal divider">Our Offers</h3>
 </div>
-</div>
-<div class="container">
+<div class="plan-bg">
+
+  <div class="divider"></div>
+
+<h2 class="wow fadeIn"> Basic services </h2>
+   <div class="row about">
+    <div class="col s12 m6 l3 center-align wow fadeIn">
+      <img class="basic-serv" src="/images/ticket.svg">
+      <h5 class="center-align">Flight Tickets reservation</h5>
+    </div>
+    <div class="col s12 m6 l3 center-align wow fadeIn">
+      <img class="basic-serv" src="/images/shuttle.svg">
+      <h5 class="center-align">Airport - Hotel - Airport transfer</h5>
+    </div>
+    <div class="col s12 m6 l3 center-align wow fadeIn">
+      <img class="basic-serv" src="/images/first_opinion.svg">
+      <h5 class="center-align">First medical opinion</h5>
+    </div>
+    <div class="col s12 m6 l3 center-align wow fadeIn">
+      <img class="basic-serv" src="/images/iphone.svg">
+      <h5 class="center-align">Mobile phone or SIM card so you can stay connected</h5>
+    </div>
+  </div>
+  <div class="center-align">
+  <a href="/services/"><button class="waves-effect waves-light btn-large service-btn">Learn more about our services</button></a>
+  </div>
+  {% include ekg_svg.html %}
+
+
+  
 {% include planselector.html %}
+
+
+

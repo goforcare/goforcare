@@ -1,8 +1,8 @@
 <header class="site-header">
 
-     <div class="container">
    
     <!--Where the magic happens-->
+    <div class="navbar-fixed">
     <nav id="navigation">
       <div id="navigationBox">
         <div class="call">
@@ -12,19 +12,20 @@
           Menu
         </div>
         <div class="email">
-          <a href="mailto: contact@goforcare.co" title="Email Us"><i class="fa fa-envelope"></i><span>Email Us</span></a>
+          <a class="modal-trigger" href="#modal1" title="Email Us"><i class="fa fa-envelope"></i><span>Email Us</span></a>
         </div>
       </div>
       <ul class="menu">
         <li><a id="logo" href="{{ site.baseurl }}/"><img id="logo-notext" class="ui image logos" src="/images/logo_notext.svg"><img id="logo-text" class="ui image logos" src="/images/logo_text2.svg"></a></li>
-        <li id="nav-last"><a href="mailto:contact@goforcare.co" title="Contact">Contact<i class="fa fa-envelope"></i></a></li>
-        <li><a href="/about/" title="About">About Us<i class="fa fa-university"></i></a></li>
-        <li><a href="/network/" title="Network">Network<i class="fa fa-wifi"></i></a></li>
-        <li><a href="/services/" title="Services">Services<i class="fa fa-medkit"></i></a></li>
+        <li id="nav-last" class="menu-padding"><a class="modal-trigger" href="#modal1" title="Contact"><i class="fa fa-envelope"></i>&nbspContact</a></li>
+        <li class="menu-padding"><a href="/network/" title="Network"><i class="fa fa-globe"></i>&nbspNetwork</i></a></li>
+        <li class="menu-padding"><a href="/services/" title="Services"><i class="fa fa-medkit"></i>&nbspServices</a></li>
         
         
       </ul>
     </nav>
-  </div>
-
+    </div>
 </header>
+
+{% include contact.html %}
+

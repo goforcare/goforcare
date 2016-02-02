@@ -1246,7 +1246,7 @@ nav#navigation ul li a:active {
         -webkit-transform: rotateX(0deg);
         transform: rotateX(0deg)
     }
-    nav#navigation .nav-trigger.open:before {
+   nav#navigation .nav-trigger.open:before {
         -webkit-transform: rotateX(-180deg);
         transform: rotateX(-180deg);
         -webkit-backface-visibility: visible;
@@ -1257,7 +1257,7 @@ nav#navigation ul li a:active {
     }
     nav#navigation .nav-trigger:hover {
         box-shadow: 0 0 5px rgba(0, 0, 0, .25);
-        background: #0F1649
+        /*background: #0F1649*/
     }
     nav#navigation .nav-trigger span {
         position: absolute;

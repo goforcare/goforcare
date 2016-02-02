@@ -1228,7 +1228,7 @@ nav#navigation ul li a:active {
     }
     nav#navigation .nav-trigger:before {
         font-family: FontAwesome;
-        content: '\f077';
+        content: '\f0c9';
         color: #fff;
         width: 25px;
         text-align: center;

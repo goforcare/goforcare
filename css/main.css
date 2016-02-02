@@ -1394,7 +1394,11 @@ nav#navigation ul li a:active {
         padding: 25px 0 78px;
     }
 }
-
+@media (max-width:900px) and (min-width:550px) {
+nav#navigation ul li a:last-child {
+    margin-right: 0em;
+}
+                                                                                                                                                                                                                                      
 /*-------------------NAVBAR ENDS----------------*/
 
 
@@ -1432,7 +1436,3 @@ svg {
 .svgwrap {
     background: #f5f5f5
 }
-
-
-
-

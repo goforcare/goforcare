@@ -1234,7 +1234,11 @@ nav#navigation ul li a:active {
         text-align: center;
         display: block;
         height: 27px;
-        padding: 10px 11px;
+       
+   		padding-top: 13px;
+    	padding-bottom: 5px;
+    	padding-left: 10px;
+   		padding-right: 10px;
         font-size: 24px;/*
         line-height: 20px;*/
         -webkit-backface-visibility: visible;

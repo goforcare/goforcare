@@ -1396,7 +1396,7 @@ nav#navigation ul li a:active {
 }
 @media (max-width:900px) and (min-width:550px) {
 nav#navigation ul li a {
-    margin-right: 0em;
+    margin-right: 0em!important;
  font-size:1.2rem;                                                                                                                                                                                                  
 }
                                                                                                                                                                                                                                       

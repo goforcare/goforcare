@@ -256,8 +256,18 @@ svg.chevron-left {
   display: block;
   max-width: 20rem;
 }
-
-
+.dropdown-content li>a, .dropdown-content li>span {
+color: #009FE3!important;}
+[type="radio"].with-gap:checked+label:before {
+border-color: #009FE3!important;}
+[type="radio"].with-gap:checked+label:after {
+border-color: #009FE3!important;
+background-color: #009FE3!important;
+                                }
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #009FE3!important;
+    box-shadow: 0 1px 0 0 #009FE3!important;
+}
 
 
 

@@ -703,6 +703,10 @@ section {
   margin-right: auto;
   margin-top: 6rem;
   z-index: 3;
+  border-bottom-right-radius: 70%;
+  border-bottom-left-radius: 70%;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
 }
 .int-bsns {
   width: 7rem;

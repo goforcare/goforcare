@@ -660,7 +660,7 @@ section {
 }
 @media screen and (min-width: 650px) {
   .steps-description {
-    text-align: center;
+    text-align: left;
 
     width: 150%;
     margin-left: -25%;

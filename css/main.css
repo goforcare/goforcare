@@ -976,6 +976,10 @@ div.bg:nth-child(4) {
 .footer i {
   font-size: 1.2rem;
 }
+.footer-h-icon {
+font-size: 1.7rem!important;}
+.footer-h {
+margin-top:0.3rem!important;}
 
 .footer h4 {
   color: #fff;

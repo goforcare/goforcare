@@ -232,6 +232,8 @@ svg.chevron-left {
 .modal, .modal.bottom-sheet{
   max-height: 90%
 }
+.modal .modal-content {
+padding-top:10px!important;}
 .submit {
   margin-top: 1rem;
   margin-left: auto;

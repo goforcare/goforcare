@@ -226,6 +226,9 @@ svg.chevron-left {
   .owl-carousel {
   	margin-bottom: 2rem;
   }
+ @media only screen and (min-width: 960px) {
+ h3.hero-text.flow-text {
+                                            font-size:2.5rem;}}
  /*-------------------------SLIDES END----------*/
 
 /*------------------FORM-----------*/

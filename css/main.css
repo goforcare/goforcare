@@ -967,8 +967,8 @@ div.bg:nth-child(4) {
 
 .footer {
   background-color: #0F1649;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 0.2rem;
   text-align: center;
   color: #fff;
   border-top: 3px solid #CACACA;
@@ -997,6 +997,9 @@ i.big-fa{
 .footer-links {
   margin-top: .5em;
 }
+                                                                                       footer.footer > div.row {
+ margin-bottom:0;}
+                                                                                                                                                                               
 @media only screen and (max-width: 900px) {
 footer {display:none;}
 }

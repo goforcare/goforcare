@@ -1,0 +1,154 @@
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="row full-width">
+    <div class="col m2">
+      <img src="/images/logo_goforcare.svg">
+    </div>
+    <div class="col m2">
+      <a href="/services"><h4 class="footer-h"><i class="fa fa-medkit footer-h-icon"></i>&nbsp&nbspServicios</h4></a>
+      <ul class="footer-links">
+        <li><a href="/services">Cuidado Médico</a></li>
+        <li><a href="/services">Bienestar</a></li>
+        <li><a href="/services">Tourismo</a></li>
+      <ul>
+    </div>
+    <div class="col m2">
+      <h4 class="footer-h"><i class="fa fa-paper-plane footer-h-icon"></i>&nbsp&nbspContacto</h4>
+      <ul class="footer-links">
+        <li><a href="tel:+18882266205"><i class="fa fa-phone"></i>&nbsp;+18882266205</a></li>
+        <li><a href="tel:+5766373838383"><i class="fa fa-phone"></i>&nbsp;+573167406147</a></li>
+        <li><a href="mailto:contact@goforcare.co"><i class="fa fa-envelope"></i>&nbsp;contact@goforcare.co</a></li>
+      <ul>
+    </div>
+    <div class="col m2 offset-m2">
+      <img src="/images/MTP-logo.png" class="footer-logo">
+    </div>
+    <div class="col m2">
+      <img src="/images/MTA-logo.png" class="footer-logo">
+    </div>
+  </div>
+</footer>
+
+
+ 
+
+    <!-- Core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Compressed JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
+<script src="/wow.min.js"></script>
+<script src="/app.js"></script>
+<script src="/jquery.matchHeight-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.price').matchHeight();
+});
+</script>
+
+<script>
+              new WOW().init();
+              </script>
+
+
+     <script type="text/javascript">
+  //Mobile Menu
+jQuery(document).ready(function($){
+  var navigation = $('#navigation'),
+  main = navigation.find('ul.menu');
+  $('.nav-trigger').on('click', function(){
+    $(this).toggleClass('open');
+    main.off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend').toggleClass('is-visible');
+  });
+});
+        
+  $('body').click(function(evt){  
+    var navigation = $('#navigation'),
+	main = navigation.find('ul.menu');
+       if(evt.target.id == "container")
+          return;
+       //For descendants of menu_content being clicked, remove this check if you do not want to put constraint on descendants.
+       if($(evt.target).closest('#container').length)
+          return;             
+
+      //Do processing of click event here for every element except with id menu_content
+      $('.nav-trigger').removeClass('open');
+		main.off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend').removeClass('is-visible');
+});
+  
+</script>
+<script type="text/javascript">
+  
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+</script>
+
+<!--Owl Slider-->
+<script type="text/javascript">$('.owl-carousel').owlCarousel({
+    loop:true,
+    items:1,
+    center:true,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout: 4500,
+    autoplayHoverPause:true,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    navText: ['{% include chevron-left.svg %}',
+      '{% include chevron-right.svg %}']
+})
+</script>
+<script type="text/javascript">
+  
+  $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
+        
+</script>
+<script type="text/javascript">
+  var $contactForm = $('#contact-form');
+$contactForm.submit(function(e) {
+  e.preventDefault();
+  $.ajax({
+    url: '//formspree.io/your@email.com',
+    method: 'POST',
+    data: $(this).serialize(),
+    dataType: 'json',
+    beforeSend: function() {
+      $contactForm.append('<div class="alert alert--loading">Sending message…</div>');
+    },
+    success: function(data) {
+      $contactForm.find('.alert--loading').hide();
+      $contactForm.append('<div class="alert alert--success">Message sent!</div>');
+    },
+    error: function(err) {
+      $contactForm.find('.alert--loading').hide();
+      $contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
+    }
+  });
+});
+</script>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+  
+  $('.stroke').on("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",
+ function(ekg){
+    // do something here
+    $(this).attr('class', 'stroke no-stroke');
+  setTimeout( function(){ 
+    // Do something after 1 second 
+    $('.stroke').attr("class", "stroke ekg-animate");
+  }  , 2000 );
+  
+ });
+  ekg();
+});
+</script>

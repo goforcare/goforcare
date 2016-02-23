@@ -1,0 +1,36 @@
+<header class="site-header">
+<div id="container">
+   
+    <!--Where the magic happens-->
+    <div class="navbar-fixed">
+    <nav id="navigation">
+      <div id="navigationBox">
+        <div class="call">
+          <a href="tel:+18882266205" title="Call Us"><i class="fa fa-phone"></i><span>Call Us</span></a>
+        </div>
+        <div class="nav-trigger">
+          Menu
+        </div>
+        <div class="email">
+          <a class="modal-trigger" href="#modal1" title="Email Us"><i class="fa fa-envelope"></i><span>Email Us</span></a>
+        </div>
+      </div>
+      <ul class="menu">
+        <li><a id="logo" href="{{ site.baseurl }}/es"><img id="logo-notext" class="ui image logos" src="/images/logo_notext.svg"><img id="logo-text" class="ui image logos" src="/images/logo_text2.svg"></a></li>
+        <li id="nav-last" class="menu-padding"> <a href="http://goforcare.co{{page.trans}}" title="English">
+         <div class="chip">
+              <img src="/images/UK.png" alt="English">
+              English
+          </div></a>
+        <li class="menu-padding"><a class="modal-trigger" href="#modal1" title="Contacto"><i class="fa fa-envelope"></i>&nbspContacto</a></li>
+        <li class="menu-padding"><a href="/es/alianzas/" title="Alianzas"><i class="fa fa-globe"></i>&nbspAlianzas</i></a></li>
+        <li class="menu-padding"><a href="/es/servicios/" title="Servicios"><i class="fa fa-medkit"></i>&nbspServicios</a></li>
+        
+        
+      </ul>
+    </nav>
+    </div>
+</div>
+</header>
+
+{% include contact_es.html %}

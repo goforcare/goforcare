@@ -142,10 +142,7 @@ p.slide-p {
     url(/images/doki.png);
 }
 .second-slide{
-	background:  linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
-    ),url(/images/medcare3.png);
+	background:url(/images/medcare3.png);
 
 }
 .third-slide {

@@ -1,0 +1,86 @@
+ <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">GoForCare Travel</h5>
+                <p class="grey-text text-lighten-4">Health Beyond Borders</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Menu</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="http://goforcare.co/travel/index.html#destinations">Destinations</a></li>
+                  <li><a class="grey-text text-lighten-3" href="http://goforcare.co">GoForCare Health</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2016 GoForCare
+            <a class="grey-text text-lighten-4 right">We wish you a pleasant journey! </a>
+            </div>
+          </div>
+        </footer>
+            
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+ <script type="text/javascript">
+  $('.dropdown-button').dropdown({
+      inDuration: 300,
+      outDuration: 225,
+      constrain_width: true, // Does not change width of dropdown to that of the activator
+      hover: true, // Activate on hover
+      gutter: 0, // Spacing from edge
+      belowOrigin: true, // Displays dropdown below the button
+      alignment: 'left' // Displays dropdown with edge aligned to the left of button
+    }
+  );</script>
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
+          
+  </script>
+
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+    $('ul.tabs').tabs();
+  });
+  </script>
+
+  <script type="text/javascript">
+$(function() {
+  $('#ddlChooser').on('change', function() {
+    var $pn = $($(this).val());
+    if(!$pn.is('.active')){
+      $('#container .panel.active').removeClass('active');
+      $pn.addClass('active');
+    }
+  }).trigger('change');
+  
+});
+
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+  </script>
+
+
+<script type="text/javascript">
+  //Mobile Menu
+jQuery(document).ready(function($){
+  var navigation = $('#navigation'),
+  main = navigation.find('ul.menu');
+  $('.nav-trigger').on('click', function(){
+    $(this).toggleClass('open');
+    main.off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend').toggleClass('is-visible');
+  });
+});
+        
+  
+  
+</script>

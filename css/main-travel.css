@@ -221,6 +221,7 @@ video#bgvid {
 
 .container {
     width: 100%!important;
+                                              margin-top: 3rem;
 }
 }
 

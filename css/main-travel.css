@@ -641,7 +641,7 @@ nav#navigation ul li a:active {
 /*-------------------NAVBAR ENDS----------------*/
 
 .dropdown-content.destination {
-  background:transparent;
+  background:#ffffff;
 }
 nav#navigation.fixed .dropdown-content.destination {
   background:white;

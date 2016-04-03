@@ -1,16 +1,6 @@
 @charset "utf-8";
 
 
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-@charset "utf-8";
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
 
 
 // Our variables
@@ -87,6 +77,7 @@ $on-laptop:        800px;
 .dropdown-button.btn-flat {
 	background-color: white;
 	font-size: 1.5rem;
+    MARGIN-TOP: 2.5REM;
 	padding-top: 0.5rem;
 	padding-bottom: 3rem;
 	text-transform: none;
